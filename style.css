@@ -1,0 +1,43 @@
+* {
+    text-align: center;
+}
+
+h1 {
+    color: brown;
+}
+
+h2 {
+    color: green;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+    border: solid brown;
+    margin: auto;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: solid brown;
+}
+
+.mole {
+    background-image: url("images/1.svg");
+    background-size: cover;
+}
+
+.mole:hover {
+    background-image: url("images/2.svg");
+    background-size: cover;
+}
+
+.catch {
+    background-image: url("images/4.svg");
+    background-size: cover;
+}
